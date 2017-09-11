@@ -1,4 +1,4 @@
-# Rails DeCal Fall 2016 Homework 1
+# Rails DeCal Fall 2017 Homework 1
 This assignment involves writing scripts in Ruby to help you become familiar with the Ruby programming language.
 
 ## Q1
@@ -12,8 +12,8 @@ There is a method called `combine_name` in hw1.rb. `combine_name` accepts two st
 
 Example:
 ```ruby
-combine_name 'Charles', 'Xue'
- => 'Charles Xue'
+combine_name 'Jon', 'Chu'
+ => 'Jon Chu'
 ```
 
 ## Q4
