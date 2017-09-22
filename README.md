@@ -1,6 +1,12 @@
 # Rails DeCal Fall 2017 Homework 1
 This assignment involves writing scripts in Ruby to help you become familiar with the Ruby programming language.
 
+**After forking this repository**, follow these commands to get started:
+```
+git clone https://github.com/your_username/fa17-hw1
+cd fa17-hw1
+```
+
 ## Q1
 There is a method called `squared_sum` in hw1.rb. `squared_sum` accepts two integer parameters a and b. The method should calculate the sum of a and b and then return the square of the sum. Please finish this method.
 
@@ -38,7 +44,7 @@ For example:
 - For Q2 check out these [docs about arrays](http://ruby-doc.org/core-2.2.0/Array.html). In web development in general, there are a lot of docs available when learning new libraries.
 
 - For Q3 you might want to check out
-[Ruby's string interpolation] (https://en.wikipedia.org/wiki/String_interpolation#Ruby).
+[Ruby's string interpolation](https://en.wikipedia.org/wiki/String_interpolation#Ruby).
 
 - To open the ruby interpreter to help debug call the 'irb' command in your terminal with the hw1.rb file.
 ```
@@ -52,3 +58,14 @@ ruby autograder.rb
 ```
 
 If `'All functions work'` appears, everything is correct!
+
+## How to submit
+You're done! Whew. Time to submit! Run these commands:
+
+```
+git add .
+git commit -am "whatever message you want"
+git push origin master
+```
+
+Fill out the submission form for this homework, which can be found on Piazza.
