@@ -36,7 +36,7 @@ For example:
 `['1', '2', '2', '2', '3', '4', '5', '10']` returns 10 as well.
 
 ## Q5
-You want to get a leg up on your next Scrabble game with your grandmother. Write a function that takes a word (string) and returns the scrabble value of that word. Use the hash provided to get the values. Assume the word has all lowercase letters.
+You want to get a leg up on your next Scrabble game with your grandmother. Write a function that takes a word (string) and returns the scrabble value of that word. Use the hash provided in the method to get the values. Assume the word has all lowercase letters.
 
 Your code should be on a single line.
 

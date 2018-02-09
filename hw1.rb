@@ -49,5 +49,4 @@ def scrabble(word)
     z: 10,
   }
   # Q5 CODE HERE
-  word.split('').map { |s| values[s.to_sym] }.sum
 end
