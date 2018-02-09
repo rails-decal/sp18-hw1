@@ -1,10 +1,10 @@
-# Rails DeCal Fall 2017 Homework 1
+# Rails DeCal Spring 2018 Homework 1
 This assignment involves writing scripts in Ruby to help you become familiar with the Ruby programming language.
 
 **After forking this repository**, follow these commands to get started:
 ```
-git clone https://github.com/your_username/fa17-hw1
-cd fa17-hw1
+git clone https://github.com/your_username/sp18-hw1
+cd sp18-hw1
 ```
 
 ## Q1
@@ -18,8 +18,8 @@ There is a method called `combine_name` in hw1.rb. `combine_name` accepts two st
 
 Example:
 ```ruby
-combine_name 'Jon', 'Chu'
- => 'Jon Chu'
+combine_name 'Nhi', 'Quach'
+ => 'Nhi Quach'
 ```
 
 ## Q4
