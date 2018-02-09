@@ -41,8 +41,10 @@ You want to get a leg up on your next Scrabble game with your grandmother. Write
 Your code should be on a single line.
 
 Hint: Try to split the word to get the letters in an array
-Hint: Are :this_one and "this_one" equivalent objects?
-Hint: Look at Array#sum
+
+Hint: Are `:this_one` and `"this_one"` equivalent objects?
+
+Hint: Look at `Array#sum`
 
 Example:
 ```
