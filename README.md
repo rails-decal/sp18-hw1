@@ -35,6 +35,24 @@ For example:
 
 `['1', '2', '2', '2', '3', '4', '5', '10']` returns 10 as well.
 
+## Q5
+You want to get a leg up on your next Scrabble game with your grandmother. Write a function that takes a word (string) and returns the scrabble value of that word. Use the hash provided to get the values. Assume the word has all lowercase letters.
+
+Your code should be on a single line.
+
+Hint: Try to split the word to get the letters in an array
+Hint: Are :this_one and "this_one" equivalent objects?
+Hint: Look at Array#sum
+
+Example:
+```
+> scrabble("equestrian")
+=> 19
+```
+
+This should get you familiar with basic operators, strings, symbols, and
+iterators.
+
 ## Challenges
 - Q1-Q3 can be written in 1 line and under 40 characters. Do this if you want an extra challenge.
 

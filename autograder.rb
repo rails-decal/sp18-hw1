@@ -38,9 +38,25 @@ def check_blockin_time
   puts 'Q4 Success!'
 end
 
+def check_scrabble
+  input = ["scream", "ruby", "on", "rails", "decal", "quixotry", "oxyphenbutazone"]
+  expected_output = [10, 9, 2, 5, 8, 27, 41]
+  output = input.map { |w| scrabble w }
+
+  error_str = %(
+    Scrabble was not computed correctly.
+    Input was #{input}.
+    Expected output was #{expected_output}.
+    Got #{output}."
+  )
+  raise error_str unless output == expected_output
+  puts 'Q5 Success!'
+end
+
 check_squared_sum
 check_sort_array
 check_combine_name
 check_blockin_time
+check_scrabble
 
 puts 'All functions work!'
